@@ -22,7 +22,7 @@ class Index extends CI_Controller{
         */
         $this->load->helper('url');
 
-        $this->app = 'Pintuku';
+        $this->app = 'WakafQ';
         $this->description = 'Semua untuk kita bisa';        
     }
     function index(){
