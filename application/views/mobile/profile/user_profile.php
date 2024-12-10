@@ -14,7 +14,7 @@
         </div>
       </div>
 
-      <a href="user-info.html" class="edit-info">
+      <a href="<?php echo base_url('index/user_info');?>" class="edit-info">
         <img src="../assets/svg/edit.svg" alt="icon">
       </a>
     </section>
@@ -27,7 +27,7 @@
         <h4 class="mb-16">Personal Info</h4>
         <ul class="setting-list">
           <li>
-            <a href="user-address.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_address'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/location.svg" alt="icon">
                 <p>My Address</p>
@@ -37,7 +37,7 @@
             </a>
           </li>
           <li>
-            <a href="user-payment.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_payment'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/work.svg" alt="icon">
                 <p>Payment Method</p>
@@ -54,7 +54,7 @@
         <h4 class="mb-16">Security</h4>
         <ul class="setting-list">
           <li>
-            <a href="change-password.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_change_password'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/lock-close.svg" alt="icon">
                 <p>Change Password</p>
@@ -64,7 +64,7 @@
             </a>
           </li>
           <li>
-            <a href="forgot-password.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_forget_password'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/lock-open.svg" alt="icon">
                 <p>Forgot Password</p>
@@ -74,7 +74,7 @@
             </a>
           </li>
           <li>
-            <a href="security.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_security'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/shield.svg" alt="icon">
                 <p>Security</p>
@@ -84,7 +84,7 @@
             </a>
           </li>
           <li>
-            <a href="notifications.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_notification'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/bell-black.svg" alt="icon">
                 <p>Notifications</p>
@@ -101,7 +101,7 @@
         <h4 class="mb-16">General</h4>
         <ul class="setting-list">
           <li>
-            <a href="user-language.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_language'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/globe.svg" alt="icon">
                 <p>Language</p>
@@ -128,7 +128,7 @@
         <h4 class="mb-16">About</h4>
         <ul class="setting-list">
           <li>
-            <a href="legal-policy.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_policy'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/shield-round.svg" alt="icon">
                 <p>Legal and Policies</p>
@@ -138,7 +138,7 @@
             </a>
           </li>
           <li>
-            <a href="help-support.html" class="d-flex align-items-center justify-content-between">
+            <a href="<?php echo base_url('index/user_help'); ?>" class="d-flex align-items-center justify-content-between">
               <div class="d-flex align-items-center gap-12 shrink-0">
                 <img src="../assets/svg/question.svg" alt="icon">
                 <p>Help & Support</p>
@@ -171,4 +171,28 @@
     </div>
     <!-- logout button end -->
 
+  <!-- edit-profile modal start -->
+  <div class="modal fade logOutModal modalBg" id="logOutModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header justify-content-end">
+          <button type="button" class="close-btn d-flex align-items-center justify-content-center rounded-full" data-bs-dismiss="modal" aria-label="Close">
+            <img src="../assets/svg/close-black.svg" alt="icon">
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <h4 class="mb-32">Are you sure you want to logout?</h4>
+          <ul>
+            <li class="mb-04">
+              <button type="button" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+            </li>
+            <li>
+              <button type="button" class="log-out" data-bs-dismiss="modal" aria-label="Close">Log Out</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- edit-profile modal end -->
 </main>

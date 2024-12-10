@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Travgo</title>
+  <title><?php echo $app.' - '.$title; ?></title>
 
   <!-- favicon -->
   <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon">
@@ -52,7 +52,7 @@
             <img src="<?php echo base_url(); ?>assets/svg/menu/sun-white.svg" alt="icon" class="sun">
             <img src="<?php echo base_url(); ?>assets/svg/menu/moon-white.svg" alt="icon" class="moon">
           </label>
-          <a href="../profile/user-profile.html">
+          <a href="<?php echo base_url('index/user_profile');?>">
             <img src="<?php echo base_url(); ?>assets/svg/menu/profile-white.svg" alt="icon">
           </a>
         </div>
@@ -262,7 +262,7 @@
             <label for="lemail1">Email</label>
             <input type="email" id="lemail1" placeholder="Enter your email address" class="input-field">
           </div>
-          <a href="<?php echo base_url('login_email');?>" class="btn-primary">Continue with Email</a>
+          <a href="<?php echo base_url('index/login_email');?>" class="btn-primary">Continue with Email</a>
         </form>
   
         <div class="divider d-flex align-items-center justify-content-center gap-12">
@@ -282,7 +282,7 @@
           </button>
         </div>
   
-        <h6>Don’t have an account? <a href="<?php echo base_url('register');?>">Sign Up</a></h6>
+        <h6>Don’t have an account? <a href="<?php echo base_url('index/register');?>">Sign Up</a></h6>
       </div>
     </section>
     <!-- signin end -->

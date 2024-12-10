@@ -22,22 +22,65 @@ class Index extends CI_Controller{
         */
         $this->load->helper('url');
 
-        $this->app = 'Wakafku';
+        $this->app = 'Pintuku';
         $this->description = 'Semua untuk kita bisa';        
     }
     function index(){
-        $data['title'] = 'Controller';
-        $data['_view'] = 'mobile/name';
+        $data['app']            = $this->app;
+        $data['title']          = 'Index';
+        $data['description']    = $this->description;        
+        // $data['_view'] = 'mobile/index';
         $this->load->view('mobile/index',$data);
-        // $this->load->view('layouts/admin/menu/folder/name_js.php',$data);
     }
     function login(){
         $data['app']            = $this->app;          
         $data['title']          = 'Login';
         $data['description']    = $this->description;        
-        $data['_view'] = 'mobile/auth/login';
-        $this->load->view('mobile/home',$data);
+        // $data['_view'] = 'mobile/auth/login';
+        $this->load->view('mobile/auth/login',$data);
     }  
+    function login_email(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'Login Email';
+        $data['description']    = $this->description;        
+        // $data['_view'] = 'mobile/auth/login';
+        $this->load->view('mobile/auth/login_email',$data);
+    }      
+    function register(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'Register';
+        $data['description']    = $this->description;        
+        // $data['_view'] = 'mobile/auth/login';
+        $this->load->view('mobile/auth/register',$data);
+    }  
+    function otp(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'OTP';
+        $data['description']    = $this->description;        
+        // $data['_view'] = 'mobile/auth/login';
+        $this->load->view('mobile/auth/otp',$data);
+    }          
+    function forget_password(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'Forget Password';
+        $data['description']    = $this->description;        
+        // $data['_view'] = 'mobile/auth/login';
+        $this->load->view('mobile/auth/forget_password',$data);
+    }   
+    function create_new_password(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'Create Password';
+        $data['description']    = $this->description;        
+        // $data['_view'] = 'mobile/auth/login';
+        $this->load->view('mobile/auth/create_new_password',$data);
+    }                  
+    function home(){
+        $data['app']            = $this->app;
+        $data['title']          = 'Home';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/dashboard_wakaf';
+        $this->load->view('mobile/home',$data);
+    }
     function message(){
         $data['app']            = $this->app;          
         $data['title']          = 'Message';
@@ -65,22 +108,49 @@ class Index extends CI_Controller{
         $data['description']    = $this->description;        
         $data['_view'] = 'mobile/page/service_location';
         $this->load->view('mobile/home',$data);
-    }              
-    function home(){
-        $data['app']            = $this->app;          
-        $data['title']          = 'Home';
-        $data['description']    = $this->description;        
-        $data['_view'] = 'mobile/dashboard';
-        $this->load->view('mobile/home',$data);
-    }       
+    }                  
     function user_profile(){
         $data['app']            = $this->app;          
         $data['title']          = 'User Profile';
         $data['description']    = $this->description;        
         $data['_view'] = 'mobile/profile/user_profile';
         $this->load->view('mobile/home',$data);
+    }  
+    function user_info(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'User Info';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/profile/user_info';
+        $this->load->view('mobile/home',$data);
+    }  
+    function user_address(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'User Address';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/profile/user_address';
+        $this->load->view('mobile/home',$data);
     }    
-
+    function user_address_add(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'User Address Add';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/profile/user_address_add';
+        $this->load->view('mobile/home',$data);
+    }                
+    function user_payment(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'User Payment';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/profile/user_payment';
+        $this->load->view('mobile/home',$data);
+    } 
+    function user_payment_add(){
+        $data['app']            = $this->app;          
+        $data['title']          = 'User Payment Add';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/profile/user_payment_add';
+        $this->load->view('mobile/home',$data);
+    }     
     function guide_profile(){
         $data['app']            = $this->app;          
         $data['title']          = 'Guide Profile';
