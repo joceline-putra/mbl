@@ -246,7 +246,30 @@ class Index extends CI_Controller{
         $data['description']    = $this->description;        
         $data['_view'] = 'mobile/page/search_result';
         $this->load->view('mobile/home',$data);
-    }        
+    }    
+    
+    /* Wakafku */
+    function service_checkout($title){
+        $data['app']            = $this->app;          
+        $data['title']          = ucwords($title).' Checkout';
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/page_wakafku/checkout';
+        $this->load->view('mobile/home',$data);
+    }  
+    function kajian($title){
+        $data['app']            = $this->app;          
+        $data['title']          = ucwords(str_replace("-"," ",$title));
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/page_wakafku/kajian';
+        $this->load->view('mobile/home',$data);
+    }  
+    function berita($title){
+        $data['app']            = $this->app;          
+        $data['title']          = ucwords(str_replace("-"," ",$title));
+        $data['description']    = $this->description;        
+        $data['_view'] = 'mobile/page_wakafku/berita';
+        $this->load->view('mobile/home',$data);
+    }              
 }
 
 ?>

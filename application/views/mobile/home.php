@@ -75,86 +75,87 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="modal-close rounded-full" data-bs-dismiss="modal" aria-label="Close">
-            <img src="assets/svg/close-black.svg" alt="Close">
+            <img src="../assets/svg/close-black.svg" alt="Close">
           </button>
-          <h1 class="modal-title">All Services</h1>
+          <h1 class="modal-title">Layanan Kami</h1>
         </div>
         <div class="modal-body">
-          <!-- item 1 -->
-          <a href="<?php echo base_url('index/service_location');?>">
-            <figure class="item text-center">
-              <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/airport.png" alt="airport" class="img-fluid backface-hidden">
-              </div>
-              <figcaption>Airport</figcaption>
-            </figure>
-          </a>
 
           <!-- item 2 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a href="<?php echo base_url('index/service_checkout/zakat');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/car.png" alt="car" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/car.png" alt="car" class="img-fluid backface-hidden">
               </div>
-              <figcaption>Taxi</figcaption>
+              <figcaption>Zakat</figcaption>
             </figure>
           </a>
 
           <!-- item 3 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a href="<?php echo base_url('index/service_checkout/sedekah');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/hotel.png" alt="hotel" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/hotel.png" alt="hotel" class="img-fluid backface-hidden">
               </div>
-              <figcaption>Hotel</figcaption>
+              <figcaption>Sedekah</figcaption>
+            </figure>
+          </a>
+
+          <!-- item 1 -->
+          <a href="<?php echo base_url('index/service_checkout/wakaf');?>">
+            <figure class="item text-center">
+              <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
+                <img src="../assets/images/home/airport.png" alt="airport" class="img-fluid backface-hidden">
+              </div>
+              <figcaption>Wakaf</figcaption>
             </figure>
           </a>
 
           <!-- item 4 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a href="<?php echo base_url('index/service_checkout/qurban');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/villa.png" alt="airport" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/villa.png" alt="airport" class="img-fluid backface-hidden">
               </div>
-              <figcaption>Villa</figcaption>
+              <figcaption>Qurban</figcaption>
             </figure>
           </a>
 
           <!-- item 5 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a style="display:none;" href="<?php echo base_url('index/service_location');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/cafe.png" alt="car" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/cafe.png" alt="car" class="img-fluid backface-hidden">
               </div>
               <figcaption>Cafe</figcaption>
             </figure>
           </a>
 
           <!-- item 6 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a style="display:none;" href="<?php echo base_url('index/service_location');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/luggage.png" alt="hotel" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/luggage.png" alt="hotel" class="img-fluid backface-hidden">
               </div>
               <figcaption>Luggage</figcaption>
             </figure>
           </a>
 
           <!-- item 7 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a style="display:none;" href="<?php echo base_url('index/service_location');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/boat.png" alt="car" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/boat.png" alt="car" class="img-fluid backface-hidden">
               </div>
               <figcaption>Ship</figcaption>
             </figure>
           </a>
 
           <!-- item 8 -->
-          <a href="<?php echo base_url('index/service_location');?>">
+          <a style="display:none;" href="<?php echo base_url('index/service_location');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="assets/images/home/camera.png" alt="hotel" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/camera.png" alt="hotel" class="img-fluid backface-hidden">
               </div>
               <figcaption>Camera </figcaption>
             </figure>

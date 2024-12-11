@@ -262,18 +262,9 @@
 
     <!-- Layanan start -->
     <section class="service py-12">
-      <!-- item 1 -->
-      <a href="<?php echo base_url('index/service_location');?>">
-        <figure class="item text-center">
-          <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-            <img src="../assets/images/home/airport.png" alt="airport" class="img-fluid backface-hidden">
-          </div>
-          <figcaption>Wakaf</figcaption>
-        </figure>
-      </a>
 
       <!-- item 2 -->
-      <a href="<?php echo base_url('index/service_location');?>">
+      <a href="<?php echo base_url('index/service_checkout/zakat');?>">
         <figure class="item text-center">
           <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
             <img src="../assets/images/home/car-rental.png" alt="car" class="img-fluid backface-hidden">
@@ -283,7 +274,7 @@
       </a>
 
       <!-- item 3 -->
-      <a href="<?php echo base_url('index/service_location');?>">
+      <a href="<?php echo base_url('index/service_checkout/sedekah');?>">
         <figure class="item text-center">
           <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
             <img src="../assets/images/home/hotel.png" alt="hotel" class="img-fluid backface-hidden">
@@ -291,7 +282,17 @@
           <figcaption>Sedekah</figcaption>
         </figure>
       </a>
-
+      
+      <!-- item 1 -->
+      <a href="<?php echo base_url('index/service_checkout/wakaf');?>">
+        <figure class="item text-center">
+          <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
+            <img src="../assets/images/home/airport.png" alt="airport" class="img-fluid backface-hidden">
+          </div>
+          <figcaption>Wakaf</figcaption>
+        </figure>
+      </a>
+      
       <!-- item 4 -->
       <figure class="item text-center" data-bs-toggle="modal" data-bs-target="#serviceModal">
         <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
@@ -314,7 +315,7 @@
         <div class="swiper-wrapper">
           <!-- item-1 -->
           <div class="swiper-slide place-card">
-            <a href="<?php echo base_url('index/vacation_detail');?>">
+            <a href="<?php echo base_url('index/kajian/kajian-ngaji');?>">
               <div class="image position-relative">
                 <img src="../assets/images/home/item-1.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
@@ -322,7 +323,7 @@
                 </span>
               </div>
               <div class="content">
-                <h4>Tahiti Beach</h4>
+                <h4>Kajian Ngaji</h4>
                 <p class="d-flex align-items-center gap-04 location">
                   <img src="../assets/svg/map-marker.svg" alt="icon">
                   Polynesia, French
@@ -340,7 +341,7 @@
 
           <!-- item-2 -->
           <div class="swiper-slide place-card">
-            <a href="<?php echo base_url('index/vacation_detail');?>">
+            <a href="<?php echo base_url('index/kajian/kajian-islami');?>">
               <div class="image position-relative">
                 <img src="../assets/images/home/item-2.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
@@ -348,7 +349,7 @@
                 </span>
               </div>
               <div class="content">
-                <h4>St. Lucia Mountain</h4>
+                <h4>Kajian Islami</h4>
                 <p class="d-flex align-items-center gap-04 location">
                   <img src="../assets/svg/map-marker.svg" alt="icon">
                   South America
@@ -366,7 +367,7 @@
 
           <!-- item-3 -->
           <div class="swiper-slide place-card">
-            <a href="<?php echo base_url('index/vacation_detail');?>">
+            <a href="<?php echo base_url('index/kajian/kajian-islami-2');?>">
               <div class="image position-relative">
                 <img src="../assets/images/home/item-1.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
@@ -374,7 +375,7 @@
                 </span>
               </div>
               <div class="content">
-                <h4>Tahiti Beach</h4>
+                <h4>Kajian Islami II</h4>
                 <p class="d-flex align-items-center gap-04 location">
                   <img src="../assets/svg/map-marker.svg" alt="icon">
                   Polynesia, French
@@ -392,7 +393,7 @@
 
           <!-- item-4 -->
           <div class="swiper-slide place-card">
-            <a href="<?php echo base_url('index/vacation_detail');?>">
+            <a href="<?php echo base_url('index/kajian/sholawat-bersama-ustad');?>">
               <div class="image position-relative">
                 <img src="../assets/images/home/item-2.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
@@ -400,7 +401,7 @@
                 </span>
               </div>
               <div class="content">
-                <h4>St. Lucia Mountain</h4>
+                <h4>Sholawat Bersama Ustad</h4>
                 <p class="d-flex align-items-center gap-04 location">
                   <img src="../assets/svg/map-marker.svg" alt="icon">
                   South America
@@ -486,14 +487,14 @@
       <ul>
         <!-- item 1 -->
         <li>
-          <a href="<?php echo base_url('index/hotel_detail'); ?>" class="d-flex align-items-center gap-12">
+          <a href="<?php echo base_url('index/berita/berbagi-bersama-yatim-piatu'); ?>" class="d-flex align-items-center gap-12">
             <div class="image shrink-0 overflow-hidden radius-8">
               <img src="../assets/images/home/budget-1.png" alt="Place" class="img-fluid w-100 h-100 object-fit-cover">
             </div>
 
             <div class="content shrink-0 d-flex align-items-center gap-12 justify-content-between flex-grow">
               <div>
-                <h4>Ledadu Beach</h4>
+                <h4>Berbagi bersama Yatim Piatu</h4>
                 <h5>3 days 2 nights</h5>
                 <p class="d-flex align-items-center gap-8 location">
                   <img src="../assets/svg/map-marker.svg" alt="icon">
@@ -507,14 +508,14 @@
 
         <!-- item 2 -->
         <li>
-          <a href="<?php echo base_url('index/hotel_detail'); ?>" class="d-flex align-items-center gap-12">
+          <a href="<?php echo base_url('index/berita/donasi-untuk-kemanuasian'); ?>" class="d-flex align-items-center gap-12">
             <div class="image shrink-0 overflow-hidden radius-8">
               <img src="../assets/images/home/budget-2.png" alt="Place" class="img-fluid w-100 h-100 object-fit-cover">
             </div>
   
             <div class="content shrink-0 d-flex align-items-center gap-12 justify-content-between flex-grow">
               <div>
-                <h4>Endigada Beach</h4>
+                <h4>Donasi Untuk Kemanusiaan</h4>
                 <h5>5 days 4 nights</h5>
                 <p class="d-flex align-items-center gap-8 location">
                   <img src="../assets/svg/map-marker.svg" alt="icon">
