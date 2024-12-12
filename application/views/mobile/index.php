@@ -60,35 +60,11 @@
                     <!-- item-1 -->
                     <div class="swiper-slide">
                     <div class="image position-relative">
-                        <img src="assets/images/onboarding/slide-1.png" alt="Slide" class="w-100 h-100 object-fit-cover">
+                        <img src="assets/images/onboarding/welcome.png" alt="Slide" class="w-100 h-100 object-fit-cover">
                     </div>
                     <div class="content text-center">
-                        <h2>Best travel destinations in the world</h2>
-                        <p>Semper in cursus magna et eu varius nunc adipiscing. Elementum justo, laoreet id semiru forigive you.
-                        </p>
-                    </div>
-                    </div>
-
-                    <!-- item-2 -->
-                    <div class="swiper-slide">
-                    <div class="image position-relative">
-                        <img src="assets/images/onboarding/slide-2.png" alt="Slide" class="w-100 h-100 object-fit-cover">
-                    </div>
-                    <div class="content text-center">
-                        <h2>Meet the needs of the holidays</h2>
-                        <p>Semper in cursus magna et eu varius nunc adipiscing. Elementum justo, laoreet id semiru forigive you.
-                        </p>
-                    </div>
-                    </div>
-
-                    <!-- item-3 -->
-                    <div class="swiper-slide">
-                    <div class="image position-relative">
-                        <img src="assets/images/onboarding/slide-3.png" alt="Slide" class="w-100 h-100 object-fit-cover">
-                    </div>
-                    <div class="content text-center">
-                        <h2>Go on holiday with a smile</h2>
-                        <p>Semper in cursus magna et eu varius nunc adipiscing. Elementum justo, laoreet id semiru forigive you.
+                        <h2>WakafQ platform masyarakat modern</h2>
+                        <p>Beramal membuat anda semakin dilipat gandakan rezeki dan pintu akhirat.
                         </p>
                     </div>
                     </div>
@@ -96,10 +72,10 @@
                     <!-- item-4 -->
                     <div class="swiper-slide">
                     <div class="image position-relative">
-                        <img src="assets/images/onboarding/welcome.png" alt="Slide" class="w-100 h-100 object-fit-cover">
+                        <img src="assets/images/onboarding/slide-2.png" alt="Slide" class="w-100 h-100 object-fit-cover">
                     </div>
                     <div class="content text-center">
-                        <h2>We are here to make your holiday easier</h2>
+                        <h2>Kami disini untuk memudahkan amal</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="<?php echo base_url('index/login');?>" class="btn-primary btn-get-started">Get Started</a>
                         <h6>Don’t have an account? <a href="<?php echo base_url('index/register');?>">Register</a></h6>

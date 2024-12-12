@@ -85,7 +85,7 @@
           <a href="<?php echo base_url('index/service_checkout/zakat');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="../assets/images/home/car.png" alt="car" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/002-zakat.png" alt="car" class="img-fluid backface-hidden">
               </div>
               <figcaption>Zakat</figcaption>
             </figure>
@@ -95,7 +95,7 @@
           <a href="<?php echo base_url('index/service_checkout/sedekah');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="../assets/images/home/hotel.png" alt="hotel" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/003-zakat-1.png" alt="hotel" class="img-fluid backface-hidden">
               </div>
               <figcaption>Sedekah</figcaption>
             </figure>
@@ -105,7 +105,7 @@
           <a href="<?php echo base_url('index/service_checkout/wakaf');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="../assets/images/home/airport.png" alt="airport" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/005-donation-1.png" alt="airport" class="img-fluid backface-hidden">
               </div>
               <figcaption>Wakaf</figcaption>
             </figure>
@@ -115,7 +115,7 @@
           <a href="<?php echo base_url('index/service_checkout/qurban');?>">
             <figure class="item text-center">
               <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-                <img src="../assets/images/home/villa.png" alt="airport" class="img-fluid backface-hidden">
+                <img src="../assets/images/home/001-slaughter.png" alt="airport" class="img-fluid backface-hidden">
               </div>
               <figcaption>Qurban</figcaption>
             </figure>
@@ -173,7 +173,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="modal-close rounded-full" data-bs-dismiss="modal" aria-label="Close">
-            <img src="assets/svg/close-black.svg" alt="Close">
+            <img src="../assets/svg/close-black.svg" alt="Close">
           </button>
           <h1 class="modal-title">Filter</h1>
         </div>
@@ -240,41 +240,41 @@
               <li>
                 <label for="star1" class="filter-label">
                   <input type="radio" name="star" id="star1" >
-                  <img src="assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
                 </label>
               </li>
               <li>
                 <label for="star2" class="filter-label">
                   <input type="radio" name="star" id="star2" >
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
                 </label>
               </li>
               <li>
                 <label for="star3" class="filter-label">
                   <input type="radio" name="star" id="star3" >
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
                 </label>
               </li>
               <li>
                 <label for="star4" class="filter-label">
                   <input type="radio" name="star" id="star4" checked>
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
                 </label>
               </li>
               <li>
                 <label for="star5" class="filter-label">
                   <input type="radio" name="star" id="star5" >
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
-                  <img src="assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
+                  <img src="../assets/svg/star-yellow.svg" alt="star">
                 </label>
               </li>
             </ul>

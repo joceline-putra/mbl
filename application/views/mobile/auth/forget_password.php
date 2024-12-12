@@ -17,8 +17,8 @@
   <section id="preloader" class="spalsh-screen">
     <div class="circle text-center">
       <div>
-        <h1>Travgo</h1>
-        <p>Discover Your Destinition</p>
+          <h1><?php echo $app; ?></h1>
+          <p><?php echo $description; ?></p>
       </div>
     </div>
     <div class="loader-spinner">

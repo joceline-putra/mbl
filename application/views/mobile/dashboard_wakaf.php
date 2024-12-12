@@ -267,7 +267,7 @@
       <a href="<?php echo base_url('index/service_checkout/zakat');?>">
         <figure class="item text-center">
           <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-            <img src="../assets/images/home/car-rental.png" alt="car" class="img-fluid backface-hidden">
+            <img src="../assets/images/home/002-zakat.png" alt="car" class="img-fluid backface-hidden">
           </div>
           <figcaption>Zakat</figcaption>
         </figure>
@@ -277,7 +277,7 @@
       <a href="<?php echo base_url('index/service_checkout/sedekah');?>">
         <figure class="item text-center">
           <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-            <img src="../assets/images/home/hotel.png" alt="hotel" class="img-fluid backface-hidden">
+            <img src="../assets/images/home/003-zakat-1.png" alt="hotel" class="img-fluid backface-hidden">
           </div>
           <figcaption>Sedekah</figcaption>
         </figure>
@@ -287,7 +287,7 @@
       <a href="<?php echo base_url('index/service_checkout/wakaf');?>">
         <figure class="item text-center">
           <div class="image rounded-full d-flex align-items-center justify-content-center m-auto">
-            <img src="../assets/images/home/airport.png" alt="airport" class="img-fluid backface-hidden">
+            <img src="../assets/images/home/005-donation-1.png" alt="airport" class="img-fluid backface-hidden">
           </div>
           <figcaption>Wakaf</figcaption>
         </figure>
@@ -317,7 +317,7 @@
           <div class="swiper-slide place-card">
             <a href="<?php echo base_url('index/kajian/kajian-ngaji');?>">
               <div class="image position-relative">
-                <img src="../assets/images/home/item-1.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
+                <img src="../assets/images/home/item-111.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
                   <img src="../assets/svg/heart-red.svg" alt="icon">
                 </span>
@@ -343,7 +343,7 @@
           <div class="swiper-slide place-card">
             <a href="<?php echo base_url('index/kajian/kajian-islami');?>">
               <div class="image position-relative">
-                <img src="../assets/images/home/item-2.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
+                <img src="../assets/images/home/item-444.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
                   <img src="../assets/svg/heart-black.svg" alt="icon">
                 </span>
@@ -369,7 +369,7 @@
           <div class="swiper-slide place-card">
             <a href="<?php echo base_url('index/kajian/kajian-islami-2');?>">
               <div class="image position-relative">
-                <img src="../assets/images/home/item-1.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
+                <img src="../assets/images/home/item-222.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
                   <img src="../assets/svg/heart-red.svg" alt="icon">
                 </span>
@@ -395,7 +395,7 @@
           <div class="swiper-slide place-card">
             <a href="<?php echo base_url('index/kajian/sholawat-bersama-ustad');?>">
               <div class="image position-relative">
-                <img src="../assets/images/home/item-2.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
+                <img src="../assets/images/home/item-333.png" alt="desert" class="img-fluid w-100 overflow-hidden radius-8">
                 <span class="d-flex align-items-center justify-content-center rounded-full">
                   <img src="../assets/svg/heart-black.svg" alt="icon">
                 </span>
@@ -423,7 +423,7 @@
     <!-- Dakwah end -->
 
     <!-- Donatur start -->
-    <section class="guide py-12">
+    <section class="guide py-12" style="display:none;">
       <!-- title -->
       <div class="title d-flex align-items-center justify-content-between">
         <h2 class="shrink-0">Donatur</h2>
@@ -489,7 +489,7 @@
         <li>
           <a href="<?php echo base_url('index/berita/berbagi-bersama-yatim-piatu'); ?>" class="d-flex align-items-center gap-12">
             <div class="image shrink-0 overflow-hidden radius-8">
-              <img src="../assets/images/home/budget-1.png" alt="Place" class="img-fluid w-100 h-100 object-fit-cover">
+              <img src="../assets/images/home/budget-111.png" alt="Place" class="img-fluid w-100 h-100 object-fit-cover">
             </div>
 
             <div class="content shrink-0 d-flex align-items-center gap-12 justify-content-between flex-grow">
@@ -510,7 +510,7 @@
         <li>
           <a href="<?php echo base_url('index/berita/donasi-untuk-kemanuasian'); ?>" class="d-flex align-items-center gap-12">
             <div class="image shrink-0 overflow-hidden radius-8">
-              <img src="../assets/images/home/budget-2.png" alt="Place" class="img-fluid w-100 h-100 object-fit-cover">
+              <img src="../assets/images/home/budget-222.png" alt="Place" class="img-fluid w-100 h-100 object-fit-cover">
             </div>
   
             <div class="content shrink-0 d-flex align-items-center gap-12 justify-content-between flex-grow">

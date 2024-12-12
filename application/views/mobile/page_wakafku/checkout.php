@@ -39,10 +39,10 @@
         </div>
 
         <div class="content flex-grow">
-          <h4>Taj Mahal</h4>
+          <h4><?php echo $title; ?></h4>
           <p class="d-flex align-items-center gap-04 location mt-04">
             <img src="../../assets/svg/map-marker.svg" alt="icon">
-            Uttar Pradesh, India 
+            Indonesia
           </p>
           <p class="rating d-flex align-items-center gap-04 mt-16">
             <img src="../../assets/svg/star-yellow.svg" alt="icon">

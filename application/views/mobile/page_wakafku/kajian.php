@@ -18,11 +18,11 @@
       <!-- details-title -->
       <section class="d-flex align-items-center gap-8 details-title">
         <div class="flex-grow">
-          <h3>Taj Mahal</h3>
+          <h3><?php echo $title; ?></h3>
           <ul class="d-flex align-items-center gap-8">
             <li class="d-flex align-items-center gap-04">
               <img src="../../assets/svg/map-marker.svg" alt="icon">
-              <p>Uttar Pradesh, India</p>
+              <p>Indonesia</p>
             </li>
             <li class="d-flex align-items-center gap-04">
               <img src="../../assets/svg/star-yellow.svg" alt="icon">
@@ -44,7 +44,7 @@
       </section>
 
       <!-- guide start -->
-      <section class="guide py-16">
+      <section class="guide py-16" style="display:none;">
         <!-- title -->
         <div class="title">
           <h4>Tour Guide</h4>
@@ -129,7 +129,7 @@
       <!-- reviews end -->
 
       <!-- location start -->
-      <section class="details-location pt-16">
+      <section class="details-location pt-16" style="display:none;">
         <!-- title -->
         <div class="title">
           <h4>Location</h4>
@@ -145,9 +145,9 @@
     <!-- details-body end -->
 
     <!-- details-footer start -->
-    <section style="margin-bottom:80px;" class="details-footer d-flex align-items-center justify-content-between gap-8 w-100">
-      <p>$32 <span>/Person</span></p>
-      <a href="<?php echo base_url('index/vacation_checkout');?>">Book Now</a>
+    <section style="margin-bottom:80px;display:none;" class="details-footer d-flex align-items-center justify-content-between gap-8 w-100">
+      <!-- <p>$32 <span>/Person</span></p>
+      <a href="<?php echo base_url('index/vacation_checkout');?>">Book Now</a> -->
     </section>
     <!-- details-footer end -->
   </main>

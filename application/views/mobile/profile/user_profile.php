@@ -6,10 +6,10 @@
           <img src="../assets/images/profile/avatar.png" alt="avatar" class="img-fluid w-100 h-100 object-fit-cover">
         </div>
         <div>
-          <h3>Andy Lexsian</h3>
+          <h3>Andy</h3>
           <p class="d-flex align-items-center gap-04 location mt-04">
             <img src="../assets/svg/map-marker.svg" alt="icon">
-            Uttar Pradesh, India 
+            Indonesia
           </p>
         </div>
       </div>
